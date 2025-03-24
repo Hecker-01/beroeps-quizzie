@@ -65,6 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
       "quizResults",
       JSON.stringify({ quizName, score, total: questions.length })
     );
-    window.location.href = "../results.html";
+    window.location.href = "./results.html";
   }
 });

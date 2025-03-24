@@ -10,6 +10,15 @@ body {
 /* Main content styling */
 main {
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+p {
+  position: relative;
+  width: 40%;
+  flex: 2;
 }
 
 /* Styling for vertical, blue, screen-filling buttons */
@@ -20,9 +29,8 @@ main a {
   text-decoration: none;
   text-align: center;
   font-size: xx-large;
-  padding: 1rem;
-  margin: 1rem 0;
-  width: 100%;
+  padding: 3rem;
+  margin: 2rem 0;
   box-sizing: border-box;
 }
 
@@ -31,8 +39,13 @@ main a:hover {
 }
 
 /* Styling for h1 elements */
+<<<<<<< Updated upstream
 main h1 {
   font-size: 2.5rem;
+=======
+h1 {
+  font-size: 3rem;
+>>>>>>> Stashed changes
   color: black;
   text-align: center;
   margin-bottom: 1rem;
@@ -40,4 +53,9 @@ main h1 {
   backdrop-filter: blur(5px);
   border-radius: 10px;
   padding: 1rem;
+}
+
+.buttons {
+  flex: 1;
+  margin-right: 2rem;
 }
