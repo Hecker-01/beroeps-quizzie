@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentQuestionIndex = 0;
   let score = 0;
   let questions = [];
+  localStorage.removeItem("quizResults");
 
   // Load questions from the JSON file
   fetch("../scripts/questions.json")
