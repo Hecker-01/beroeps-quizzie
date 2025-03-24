@@ -1,0 +1,279 @@
+{
+  "Verkiezingen": {
+    "Wat is het belangrijkste doel van verkiezingen?": {
+      "answers": {
+        "A": "Het verdelen van rijkdom",
+        "B": "Het kiezen van vertegenwoordigers",
+        "C": "Het controleren van de regering",
+        "D": "Het maken van nieuwe wetten"
+      },
+      "correct": "B"
+    },
+
+    "Hoe vaak vinden landelijke verkiezingen plaats in Nederland?": {
+      "answers": {
+        "A": "Elke 2 jaar",
+        "B": "Elke 3 jaar",
+        "C": "Elke 4 jaar",
+        "D": "Elke 5 jaar"
+      },
+      "correct": "C"
+    },
+    "Wie heeft in Nederland stemrecht bij de Tweede Kamerverkiezingen?": {
+      "answers": {
+        "A": "Iedereen boven de 16 jaar",
+        "B": "Alleen mensen met een politieke functie",
+        "C": "Nederlanders van 18 jaar en ouder",
+        "D": "Iedereen die belasting betaalt"
+      },
+      "correct": "C"
+    },
+    "Wat is een kiesdrempel?": {
+      "answers": {
+        "A": "Het maximale aantal stemmen dat een partij mag krijgen",
+        "B": "De drempel bij het stembureau om te stemmen",
+        "C": "Het maximale aantal stemmen om een zetel te krijgen",
+        "D": "De grens die bepaalt welke partijen mogen deelnemen"
+      },
+      "correct": "D"
+    },
+    "Vanaf welke leeftijd mag je jezelf verkiesbaar stellen voor de Tweede Kamerverkiezingen in Nederland?": {
+      "answers": {
+        "A": "18 jaar",
+        "B": "21 jaar",
+        "C": "23 jaar",
+        "D": "25 jaar"
+      },
+      "correct": "A"
+    },
+    "Wat betekent stemgerechtigd zijn?": {
+      "answers": {
+        "A": "Dat je het recht hebt om te stemmen",
+        "B": "Dat je als vrijwilliger mag helpen bij verkiezingen",
+        "C": "Dat je politieke partijen mag oprichten",
+        "D": "Dat je stemmen mag tellen na de verkiezing"
+      },
+      "correct": "A"
+    },
+    "Wat is een coalitie?": {
+      "answers": {
+        "A": "Een groep burgers die samen stemt",
+        "B": "Een speciale stemming om wetten te veranderen",
+        "C": "Een samenwerking tussen politieke partijen om samen te regeren",
+        "D": "Een commissie die de verkiezingsuitslagen controleert"
+      },
+      "correct": "C"
+    },
+    "Wat is een voorkeurstem?": {
+      "answers": {
+        "A": "Een stem op een specifieke kandidaat binnen een partij",
+        "B": "Een stem op de lijsttrekker van een partij",
+        "C": "Een extra stem voor je favoriete partij",
+        "D": "Een stem die anoniem wordt uitgebracht"
+      },
+      "correct": "A"
+    },
+    "Kun je op meerdere partijen tegelijk stemmen?": {
+      "answers": {
+        "A": "Ja, altijd",
+        "B": "Nee, dat is niet toegestaan",
+        "C": "Alleen bij lokale verkiezingen",
+        "D": "Alleen als de partijen samenwerken"
+      },
+      "correct": "B"
+    },
+    "Wat is een referendum?": {
+      "answers": {
+        "A": "Een stemmingsronde door gekozen politici",
+        "B": "Een stemming door alle burgers over een belangrijk onderwerp",
+        "C": "Een proces om een regering te vormen",
+        "D": "Een verkiezing voor de eerste kamer"
+      },
+      "correct": "B"
+    }
+  },
+  "Tweede Kamer": {
+    "Hoeveel leden heeft de Tweede Kamer?": {
+      "answers": {
+        "A": "100",
+        "B": "150",
+        "C": "200",
+        "D": "250"
+      },
+      "correct": "B"
+    },
+    "Wie mag er in de Tweede Kamer zitten?": {
+      "answers": {
+        "A": "Alleen ministers",
+        "B": "Alleen mensen die 18 jaar of ouder zijn en kunnen stemmen",
+        "C": "Alle Nederlanders die zich kandidaat stellen en verkiesbaar zijn",
+        "D": "Alleen gekozen burgemeesters"
+      },
+      "correct": "C"
+    },
+    "Wie bepaalt wanneer de verkiezingen voor de Tweede Kamer plaatsvinden?": {
+      "answers": {
+        "A": "De president van Nederland",
+        "B": "De regering",
+        "C": "De Tweede Kamer zelf",
+        "D": "De koning"
+      },
+      "correct": "B"
+    },
+    "Wat is een belangrijke taak van de voorzitter van de Tweede Kamer?": {
+      "answers": {
+        "A": "Het opstellen van wetten",
+        "B": "Het organiseren van verkiezingen",
+        "C": "Het leiden van vergaderingen en debatten",
+        "D": "Het controleren van de regering"
+      },
+      "correct": "C"
+    },
+    "Wat gebeurt er als een Kamerlid zijn of haar functie niet kan vervullen?": {
+      "answers": {
+        "A": "Het lid wordt ontslagen door de regering",
+        "B": "Er wordt een vervanger gekozen",
+        "C": "Het Kamerlid krijgt een tijdelijke functie",
+        "D": "De verkiezingen worden vervroegd"
+      },
+      "correct": "B"
+    },
+    "Wat is het belangrijkste doel van de Tweede Kamer?": {
+      "answers": {
+        "A": "Het maken van wetten",
+        "B": "Het controleren van de regering en wetten goedkeuren",
+        "C": "Het handhaven van de grondwet",
+        "D": "Het organiseren van verkiezingen"
+      },
+      "correct": "B"
+    },
+    "Waar wordt de Tweede Kamer in Nederland vergaderd?": {
+      "answers": {
+        "A": "Het Binnenhof in Den Haag",
+        "B": "Het Paleis Noordeinde",
+        "C": "De Johan Cruijff Arena",
+        "D": "Het Koninklijk Paleis"
+      },
+      "correct": "A"
+    },
+    "Welke partij heeft de meeste zetels in de Tweede Kamer?": {
+      "answers": {
+        "A": "De grootste politieke partij na de verkiezingen",
+        "B": "De partij die de minister-president levert",
+        "C": "De partij die de oppositie leidt",
+        "D": "De partij met de meeste zetels uit de eerste verkiezingen"
+      },
+      "correct": "A"
+    },
+    "Hoeveel stemmen zijn er nodig in de Tweede Kamer om een wet goed te keuren?": {
+      "answers": {
+        "A": "75 stemmen",
+        "B": "76 stemmen",
+        "C": "150 stemmen",
+        "D": "74 stemmen"
+      },
+      "correct": "B"
+    },
+    "Welke van de volgende activiteiten kunnen Kamerleden doen?": {
+      "answers": {
+        "A": "Wetten maken",
+        "B": "De regering controleren",
+        "C": "De koning kiezen",
+        "D": "Nieuwe politieke partijen oprichten"
+      },
+      "correct": "A"
+    }
+  },
+  "Democratie": {
+    "Wat is de definitie van democratie?": {
+      "answers": {
+        "A": "Een regeringssysteem waarbij één persoon alles bepaalt",
+        "B": "Een regeringssysteem waarin het volk invloed heeft op de besluitvorming",
+        "C": "Een regeringssysteem waarin bedrijven de wet maken",
+        "D": "Een regeringssysteem zonder verkiezingen"
+      },
+      "correct": "B"
+    },
+    "Wat betekent het recht om te stemmen in een democratie?": {
+      "answers": {
+        "A": "Iedereen mag stemmen, maar het is niet verplicht",
+        "B": "Alleen de rijken mogen stemmen",
+        "C": "Alleen mensen die werken mogen stemmen",
+        "D": "Iedereen moet stemmen"
+      },
+      "correct": "A"
+    },
+    "Welke van de volgende is een kenmerk van een democratie?": {
+      "answers": {
+        "A": "Eén partij die altijd wint",
+        "B": "De regering heeft geen toezicht",
+        "C": "Vrije verkiezingen",
+        "D": "Het leger bepaalt de regels"
+      },
+      "correct": "C"
+    },
+    "Wat betekent 'mensenrechten' in een democratie?": {
+      "answers": {
+        "A": "Iedereen heeft hetzelfde recht om te regeren",
+        "B": "Iedereen heeft gelijke rechten en bescherming onder de wet",
+        "C": "Mensen mogen niet stemmen",
+        "D": "Alleen rijke mensen hebben rechten"
+      },
+      "correct": "B"
+    },
+    "Wat doet het parlement in een democratie?": {
+      "answers": {
+        "A": "Het kiest de koning",
+        "B": "Het maakt de wetten",
+        "C": "Het maakt geld",
+        "D": "Het regelt de scholen"
+      },
+      "correct": "B"
+    },
+    "Waarom zijn verkiezingen belangrijk in een democratie?": {
+      "answers": {
+        "A": "Ze zorgen ervoor dat de regering alle macht heeft",
+        "B": "Ze geven de mensen de kans om leiders te kiezen",
+        "C": "Ze maken een land rijker",
+        "D": "Ze zorgen ervoor dat er geen veranderingen komen"
+      },
+      "correct": "B"
+    },
+    "Wat is een belangrijk principe van democratie?": {
+      "answers": {
+        "A": "Iedereen moet het eens zijn met de regering",
+        "B": "Er is geen kritiek toegestaan",
+        "C": "De meerderheid beslist, maar de rechten van minderheden worden beschermd",
+        "D": "De koning bepaalt de wet"
+      },
+      "correct": "C"
+    },
+    "Wie heeft de macht in een democratie?": {
+      "answers": {
+        "A": "De koning",
+        "B": "De regering",
+        "C": "Het volk",
+        "D": "De president"
+      },
+      "correct": "C"
+    },
+    "Wat is het doel van een referendum in een democratie?": {
+      "answers": {
+        "A": "Het besluit wordt genomen door de regering",
+        "B": "Het volk beslist over een specifiek onderwerp",
+        "C": "Het is alleen voor politieke partijen",
+        "D": "Het is een manier om de koning te kiezen"
+      },
+      "correct": "B"
+    },
+    "Wat houdt de scheiding der machten in een democratie in?": {
+      "answers": {
+        "A": "De regering heeft alles te zeggen",
+        "B": "De wetgevende, uitvoerende en rechterlijke macht zijn gescheiden om elkaar te controleren",
+        "C": "De koning heeft de wetgevende macht",
+        "D": "De bevolking kiest direct de rechterlijke macht"
+      },
+      "correct": "B"
+    }
+  }
+}

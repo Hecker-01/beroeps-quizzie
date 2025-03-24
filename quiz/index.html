@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/quiz.css" />
+    <script src="../scripts/app.js" defer></script>
+    <script src="../scripts/quiz.js" defer></script>
+    <title>| Quizzie</title>
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img src="../assets/profile.png" alt="Profile Picture" />
+        <span id="username">Loading...</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../quiz">Quiz</a></li>
+          <li><a href="../leaderboard">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Quizzie</h1>
+      <section id="quiz">
+        <h2>Quiz</h2>
+        <div id="quiz-container">
+          <div id="question-container">
+            <p id="question">Loading...</p>
+            <div id="answer-buttons" class="btn-container">
+              <button class="btn">Loading...</button>
+              <button class="btn">Loading...</button>
+              <button class="btn">Loading...</button>
+              <button class="btn">Loading...</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
+  </body>
+</html>

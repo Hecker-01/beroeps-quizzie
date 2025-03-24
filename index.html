@@ -3,13 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/index.css" />
     <script src="scripts/app.js" defer></script>
     <title>Home | Quizzie</title>
   </head>
   <body>
-    <h1>Quizzie</h1>
-    <a href="quiz/index.html">Quizzes</a>
-    <a href="leaderboard/index.html">Leaderboard</a>
+    <header>
+      <div class="profile">
+        <img src="../assets/profile.png" alt="Profile Picture" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../quiz">Quiz</a></li>
+          <li><a href="../leaderboard">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Quizzie</h1>
+      <a href="quiz/index.html">Quizzes</a>
+      <a href="leaderboard/index.html">Leaderboard</a>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
   </body>
 </html>

@@ -13,7 +13,7 @@ main {
 }
 
 /* Styling for vertical, blue, screen-filling buttons */
-a {
+main a {
   display: block;
   background-color: blue;
   color: white;
@@ -26,12 +26,12 @@ a {
   box-sizing: border-box;
 }
 
-a:hover {
+main a:hover {
   background-color: darkblue;
 }
 
 /* Styling for h1 elements */
-h1 {
+main h1 {
   font-size: 2.5rem;
   color: black;
   text-align: center;

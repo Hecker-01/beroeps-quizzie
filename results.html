@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Quiz Results</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz Results</h1>
+    </header>
+    <main>
+      <section id="results">
+        <h2>Loading results...</h2>
+        <p id="score"></p>
+      </section>
+      <a href="../index.html" class="btn">Back to Home</a>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const results = JSON.parse(localStorage.getItem("quizResults"));
+        if (!results) {
+          document.getElementById("results").innerHTML =
+            "<h2>No results found!</h2>";
+          return;
+        }
+
+        document.querySelector(
+          "#results h2"
+        ).textContent = `Results for "${results.quizName}"`;
+        document.getElementById(
+          "score"
+        ).textContent = `You scored ${results.score} out of ${results.total}!`;
+      });
+    </script>
+  </body>
+</html>
