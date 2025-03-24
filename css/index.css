@@ -1,0 +1,43 @@
+/* Basic styling for the body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  color: #333;
+}
+
+/* Main content styling */
+main {
+  padding: 2rem;
+}
+
+/* Styling for vertical, blue, screen-filling buttons */
+a {
+  display: block;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: xx-large;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a:hover {
+  background-color: darkblue;
+}
+
+/* Styling for h1 elements */
+h1 {
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 1rem;
+}
