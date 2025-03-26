@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../scripts/app.js"></script>
+    <link rel="stylesheet" href="../css/leaderboard.css" />
+    <title>Quiz resultaten</title>
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img src="../assets/profile.png" alt="Profile Picture" />
+        <span id="username">Loading...</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../quiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="leaderboard">
+        <h2>Leaderboard</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jane Smith</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Bob Johnson</td>
+              <td>85</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const results = JSON.parse(localStorage.getItem("quizResults"));
+        if (!results) {
+          document.getElementById("results").innerHTML =
+            "<h2>Geen resultataten gevonden!</h2>";
+          return;
+        }
+
+        document.querySelector(
+          "#results h2"
+        ).textContent = `Resultaten voor "${results.quizName}"`;
+        document.getElementById(
+          "score"
+        ).textContent = `Je heb ${results.score} van de ${results.total} goed!`;
+      });
+    </script>
+  </body>
+</html>

@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/select.css">
-</head>
-<body>
-    <h1>Selecteer een thema</h1>
-    <div class="button-container">
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../scripts/app.js"></script>
+    <link rel="stylesheet" href="../css/select.css" />
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img src="../assets/profile.png" alt="Profile Picture" />
+        <span id="username">Loading...</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../quiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Selecteer een thema</h1>
+      <div class="button-container">
         <div class="column">
-            <button>Wat is democratie?</button><br><br>
-            <button>Tweede kamer</button><br><br>
-            <button>Verkiezingen</button>
+          <a href="./?quiz=Democratie" class="btn">Wat is democratie?</a
+          ><br /><br />
+          <a href="./?quiz=Tweede%20Kamer" class="btn">Tweede kamer</a
+          ><br /><br />
+          <a href="./?quiz=Verkiezingen" class="btn">Verkiezingen</a>
         </div>
-    </div>
-</body>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
+  </body>
 </html>

@@ -1,15 +1,6 @@
-/* Basic styling for the body */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("../assets/background.jpg");
-  background-size: cover;
-  color: #333;
-}
-
 /* Main content styling */
 main {
-  padding: 2rem;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -19,43 +10,42 @@ p {
   position: relative;
   width: 30%;
   flex: 2;
-  font-size: 1.2rem; 
-  line-height: 1.6; 
-  margin: 0 auto; 
-  padding: 0 2rem; 
-  background-color: white;
-
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 /* Styling for vertical, blue, screen-filling buttons */
 main a {
   display: block;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: xx-large;
-  padding: 3rem;
+  font-size: 1.5rem;
+  padding: 2rem;
   margin: 2rem 0;
-  box-sizing: border-box; 
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 main a:hover {
-  transform: scale(1.1); 
-  background-color: darkblue; 
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  background-color: #0056b3;
 }
+
 h1 {
-  font-size: 3rem;
-  color: black;
+  font-size: 2.5rem;
+  color: #444;
   text-align: center;
-  margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+  margin-bottom: 20px;
   border-radius: 10px;
   padding: 1rem;
-  }
-
+}
 
 .buttons {
   flex: 1;

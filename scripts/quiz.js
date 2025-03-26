@@ -4,8 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!quizName) {
     alert("No quiz specified in the URL!");
-    window.location.href = "../";
+    window.location.href = "./select.html";
     return;
+  }
+
+  // Set the quiz name in the h2 element
+  const quizNameElement = document.getElementById("quiz-name");
+  if (quizNameElement) {
+    quizNameElement.textContent = quizName;
   }
 
   const questionContainer = document.getElementById("question");
