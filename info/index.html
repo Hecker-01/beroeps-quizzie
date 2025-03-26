@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../scripts/app.js"></script>
+    <link rel="stylesheet" href="../css/info.css" />
+    <title>Quiz resultaten</title>
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img src="../assets/profile.png" alt="Profile Picture" />
+        <span id="username">Loading...</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../quiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Info over de quizzes.</h1>
+      <section>
+        <h2>Verkiezingen</h2>
+        <p>
+          Verkiezingen zijn belangrijk omdat ze ons helpen om vertegenwoordigers
+          te kiezen die namens ons beslissingen maken. In Nederland vinden
+          landelijke verkiezingen elke vier jaar plaats, en mensen van 18 jaar
+          en ouder mogen stemmen. Dit geeft ons de kans om te bepalen wie de
+          politiek leidt. Bij verkiezingen kun je stemmen op een politieke
+          partij, maar je kunt ook een voorkeurstem geven aan een specifieke
+          kandidaat binnen die partij. Na de verkiezingen kunnen verschillende
+          partijen samenwerken in een coalitie om de regering te vormen. Er zijn
+          regels die bepalen welke partijen mee mogen doen aan de verkiezingen.
+          Bijvoorbeeld, de kiesdrempel is het minimale aantal stemmen dat een
+          partij moet krijgen om een zetel te winnen. Ook kunnen mensen zich
+          vanaf 18 jaar verkiesbaar stellen voor de Tweede Kamer, wat betekent
+          dat ze zich kandidaat kunnen stellen om gekozen te worden. Soms wordt
+          er een referendum gehouden, waar alle burgers mogen stemmen over een
+          belangrijk onderwerp. Verkiezingen zijn dus niet alleen om de regering
+          te kiezen, maar ook een manier voor mensen om mee te beslissen over
+          belangrijke zaken.
+        </p>
+      </section>
+      <section>
+        <h2>De Tweede Kamer</h2>
+        <p>
+          De Tweede Kamer is een belangrijk deel van onze democratie en telt 150
+          leden. Alleen mensen die zich kandidaat stellen en verkiesbaar zijn,
+          kunnen er komen. Iedereen die 18 jaar of ouder is, mag stemmen bij de
+          verkiezingen, die elke vier jaar worden gehouden. De regering is
+          verantwoordelijk voor het organiseren van deze verkiezingen. Tijdens
+          de verkiezingen kun je stemmen op een politieke partij en een
+          voorkeurstem geven voor een specifieke kandidaat. Na de verkiezingen
+          werken partijen vaak samen in een coalitie om de regering te vormen.
+          De partij met de meeste zetels heeft veel invloed op de politiek. De
+          Tweede Kamer heeft als belangrijkste taak om de regering te
+          controleren en wetsvoorstellen goed te keuren. Voor een wet is een
+          meerderheid van 76 stemmen nodig. De voorzitter van de Tweede Kamer
+          leidt de vergaderingen en debatten, zodat alles op een ordelijke
+          manier verloopt. Als een Kamerlid er niet kan zijn, wordt er een
+          vervanger gekozen. De Tweede Kamer vergadert in het Binnenhof in Den
+          Haag, waar belangrijke beslissingen worden genomen voor ons land.
+        </p>
+      </section>
+      <section>
+        <h2>Democratie</h2>
+        <p>
+          Democratie is een belangrijk systeem waarbij het volk meebeslist over
+          hoe ons land wordt bestuurd. Iedereen die 18 jaar of ouder is, mag
+          stemmen bij de verkiezingen, die ervoor zorgen dat we zelf kunnen
+          kiezen wie wetten maakt en de regering controleert. Tijdens de
+          verkiezingen krijgt het volk de kans om zijn stem te laten horen. Dit
+          betekent dat iedereen vrij is om te stemmen en mee te beslissen over
+          wie hen vertegenwoordigt in het parlement. Het parlement maakt de
+          wetten en zorgt dat de rechten van iedereen beschermd worden. Hierdoor
+          heeft iedereen gelijke rechten en krijgt iedereen dezelfde bescherming
+          onder de wet. Een belangrijk principe van democratie is dat de macht
+          bij het volk ligt. Beslissingen worden genomen door samen te stemmen
+          en te debatteren. Soms kunnen burgers ook direct meebeslissen via een
+          referendum, waarbij over een specifiek onderwerp gestemd wordt. In een
+          democratie is de macht verdeeld. Dit betekent dat de wetgevende macht
+          (het parlement), de uitvoerende macht (de regering) en de rechterlijke
+          macht elk hun eigen taak hebben en elkaar controleren. Zo zorgt het
+          systeem ervoor dat geen enkele groep alle macht in handen heeft.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Quizzie
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const results = JSON.parse(localStorage.getItem("quizResults"));
+        if (!results) {
+          document.getElementById("results").innerHTML =
+            "<h2>Geen resultataten gevonden!</h2>";
+          return;
+        }
+
+        document.querySelector(
+          "#results h2"
+        ).textContent = `Resultaten voor "${results.quizName}"`;
+        document.getElementById(
+          "score"
+        ).textContent = `Je heb ${results.score} van de ${results.total} goed!`;
+      });
+    </script>
+  </body>
+</html>
